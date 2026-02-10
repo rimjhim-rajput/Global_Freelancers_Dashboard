@@ -15,6 +15,8 @@ The analysis focuses on understanding:
 To support these decisions, a cost-adjusted satisfaction metric (Value Index) was developed to identify scenarios where clients receive the highest satisfaction relative to what they pay.
 The final output is an interactive Power BI dashboard that allows users to explore these trade-offs by role and country, enabling more informed and data-driven freelancer selection.
 
+![Global Freelancers Dashboard](images_&_gifs/dashboard.gif)
+
 ## Dataset Description
 
 The dataset used in this analysis is a synthetic (dummy) global freelancers dataset sourced from Kaggle, created for practice and analytical exploration.
@@ -49,6 +51,8 @@ Used to create analytical measures such as median hourly rate, average client sa
 
 Before performing any analysis, the raw dataset was systematically reviewed column by column to identify data quality issues.
 An issue log was created to document problems such as missing values, inconsistent data types, and formatting irregularities. This log is available in the issues_log worksheet of the [cleaned](cleaned.xlsx) Excel workbook.
+
+![Issues Log](images_&_gifs/issues_log.png)
 
 Each issue was assessed based on:
 
